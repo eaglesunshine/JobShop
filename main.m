@@ -31,7 +31,7 @@ function main(varargin)
                    @LA31 @LA32 @LA33 @LA34 @LA35 @LA36 @LA37 @LA38 @LA39 @LA40 };   % 40个：10x5~15x15
     
     %% 对比算法
-    Algorithms = {@MaOEACE @MaOEACE2};
+    Algorithms = {@MaOEACE @NSGAIII @MaOEACSS @NSGAIISDR @SRA};
     
     %% 运行实验
     Problems_All = {Problems_FT Problems_YN Problems_ABZ Problems_ORB Problems_SWV Problems_LA};
